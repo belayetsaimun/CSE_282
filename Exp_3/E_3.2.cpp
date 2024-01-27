@@ -32,7 +32,7 @@ Node* insertAtKthPosition(Node* head, int k, int value)
 {
     if (k < 1)
     {
-        cout << "Invalid position. Position should be greater than or equal to 1." <<endl;
+        cout << "Invalid position." <<endl;
         return head;
     }
 
@@ -55,7 +55,7 @@ Node* insertAtKthPosition(Node* head, int k, int value)
 
     if (current == nullptr)
     {
-        cout << "Invalid position. Position exceeds the size of the linked list." <<endl;
+        cout << "Invalid position." <<endl;
         delete newNode;
         return head;
     }
